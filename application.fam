@@ -1,0 +1,15 @@
+App(
+    appid="scanall",
+    name="ScanAll",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="scanall_app",
+    cdefines=["APP_SCANALL"],
+    requires=["gui", "nfc", "lfrfid", "notification", "storage", "dialogs"],
+    stack_size=4 * 1024,
+    fap_category="NFC",
+    fap_icon="scanall_icon.png",
+    fap_icon_assets="images",
+    fap_author="LeviXX",
+    fap_version="1.138",
+    fap_description="All-in-one NFC (13.56 MHz) and LF RFID (125 kHz) reader: read, identify and save cards & tags.",
+)
