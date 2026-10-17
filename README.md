@@ -145,3 +145,5 @@ errors, include your firmware version and the compiler output.
 ## 👤 Credits
 
 Made by **LeviXX**. Built on the Flipper Zero firmware's public NFC and LF RFID APIs.
+
+   <!-- v1.138 -->
